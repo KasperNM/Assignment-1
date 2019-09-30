@@ -115,6 +115,7 @@ balloon_qq
 
 ```
 
+h
 ```{r}
 balloon_balance_plot <- ggplot(df, aes(x = balloon_balance)) +
   geom_histogram(aes(y = ..density..), binwidth = 1) +
